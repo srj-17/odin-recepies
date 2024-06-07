@@ -3,16 +3,24 @@ body {
     line-height: 1.25em;
 }
 
-img{
-    border-radius: 10px;
-}
-
 body#index {
     background-color: hsl(26, 92%, 80%);
 }
 
 body#aalu {
     background-color: hsl(20, 100%, 70%);
+}
+
+body#fried {
+    background-color: rgba(223, 110, 21, 0.7);
+}
+
+body#momo {
+    background-color: #c8c3a6;
+}
+
+img{
+    border-radius: 10px;
 }
 
 .header{
@@ -27,17 +35,17 @@ h3 {
     font-size: 30px;
 }
 
-ul{
+ul {
     line-height: 1.5em;
-}
-
+    }
+    
 dt { 
-   margin-top: 1.25em;
-   margin-bottom: 1.1em;
-   margin-left: 1em;
-   font-weight: bold; 
+    margin-top: 1.25em;
+    margin-bottom: 1.1em;
+    margin-left: 1em;
+    font-weight: bold; 
 }
-
+        
 .step_separator {
     font-family: Papyrus;
     font-size: 1.5em;
@@ -52,19 +60,20 @@ ul.aesthetic_ul{
 }
 
 .middle{            
-        text-align: center;
+    text-align: center;
 }
 
-a:link{
-    color: rgb(66, 135, 245);
+a:link,
+a:visited
+{
     text-decoration: none;
+    color: rgb(66, 135, 245);
 }
 
 a:visited{
-    text-decoration: none;
     color: black;
 }
 
 a:hover{
     font-size: 25px;
-}
+}   
