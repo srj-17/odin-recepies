@@ -1,0 +1,33 @@
+body{
+    background-color: hsl(26, 92%, 80%);
+}
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    }
+    
+ul.aesthetic_ul{
+    list-style-type: none;
+    font-family: 'Lucida Handwriting', Arial;
+    font-size: 20px;
+}
+
+.middle{            
+        text-align: center;
+}
+
+a:link{
+    color: rgb(66, 135, 245);
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-size: 25px;
+}
